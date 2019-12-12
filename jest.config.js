@@ -1,4 +1,5 @@
 module.exports = {
+  verbose: true,
   "roots": [
     "<rootDir>/src"
   ],
@@ -9,4 +10,6 @@ module.exports = {
   "transform": {
     "^.+\\.(ts|tsx)$": "ts-jest"
   },
+  "preset": "jest-puppeteer-preset",
+  "setupFilesAfterEnv": ["expect-puppeteer"]
 }

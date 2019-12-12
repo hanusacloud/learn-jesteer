@@ -17,8 +17,11 @@
   "license": "ISC",
   "devDependencies": {
     "@types/jest": "^24.0.23",
+    "@types/jest-environment-puppeteer": "^4.3.1",
     "@types/node": "^12.12.17",
     "jest": "^24.9.0",
+    "jest-puppeteer-preset": "^4.3.0",
+    "puppeteer": "^2.0.0",
     "ts-jest": "^24.2.0",
     "ts-node": "^8.5.4",
     "typescript": "^3.7.3"
